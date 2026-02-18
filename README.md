@@ -2,7 +2,7 @@
 
 An animated `ping` tool that plays an anime sipping GIF while waiting for each reply, then clinks cups when a response arrives.
 
-![demo](assets/demo.gif)
+![demo](ft_sipping/assets/demo.gif)
 
 ## Features
 
