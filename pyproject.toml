@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ft-sipping"
+version = "0.1.0"
+description = "Animated ping tool with anime sipping GIF"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=12.1.1",
+]
+
+[project.scripts]
+ft-sipping = "ft_sipping.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ft_sipping"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"ft_sipping/assets/sip.gif" = "ft_sipping/assets/sip.gif"
