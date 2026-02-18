@@ -43,19 +43,3 @@ ft-sipping 8.8.8.8 -c 10 -i 0.5
 ft-sipping google.com --width 24
 ```
 
-## Output
-
-```
-  Sip-ping 42network.org (51.159.x.x)...
-
-  [sipping animation]
-  [clink animation — cups clink on reply, spill on timeout]
-  Sip-ping #1...   Clink! 17ms TTL=53
-  Sip-ping #2...   Clink! 16ms TTL=53
-  Sip-ping #3...   Clink! 17ms TTL=53
-  Sip-ping #4...   Clink! 16ms TTL=53
-
-* Sip-ping statistics for 42network.org *
-    4 sip, 4 clink, 0% spill
-    min/avg/max = 16/16/17 ms
-```
